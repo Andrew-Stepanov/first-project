@@ -1,0 +1,69 @@
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.font-regular {
+  font-family: 'Inter-Regular';
+}
+.font-semibold {
+  font-family: 'Inter-SemiBold';
+}
+.font-bold {
+  font-family: 'Inter-Bold';
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.description_title {
+  width: 10%;
+  font-size: 18px;
+  font-weight: normal;
+  margin-right: 60px;
+  color: #2f80ed;
+}
+.description_text {
+  width: 65%;
+  font-size: 34px;
+}
+
+.digits {
+  justify-content: center;
+}
+
+.digits_card {
+  width: 300px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.digits_card_title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.digits_card_text {
+  font-size: 22px;
+  font-weight: normal;
+}

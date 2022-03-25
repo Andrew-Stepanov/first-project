@@ -1,0 +1,35 @@
+.cards {
+    width: 920px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards__item {
+    width: 240px;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+.cards__item_edge {
+    margin-right: 0px;
+}
+
+.cards__image {
+    background-position: center;
+    background-size: cover;
+    width: 160px;
+    height: 160px;
+    margin: 0px 40px 43px;
+    border-radius: 50%;
+}
+.cards__title {
+    margin-bottom: 16px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-family: 'Inter-SemiBold','Helvetica Neue', Arial, sans-serif;
+}
+
+.cards__description {
+    line-height: 23px;
+    font-size: 18px;
+}
